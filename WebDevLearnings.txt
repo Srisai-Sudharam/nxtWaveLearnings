@@ -1,0 +1,30 @@
+list dot will not be shown if the d-flex is used in li tag
+
+<li class="d-flex flex-row">Hello</li>
+
+same name as bootstrap classname might cause unexpected behaviour
+
+margin collapsing
+
+Order of link tags also matter
+
+because if bootstrap style sheet is added after your style sheet then your style might be overrided by bootstrap
+
+how specifity works in case of inhertied properties
+
+Every Direct child in flexbox occupies entire width 
+
+margin-auto cannot be given to inline elements
+
+# marign is applied outside div
+
+    <div class="bg-primary">
+        <p class="bg-secondary mt-5">Hello there</p>
+    </div>
+
+image has margin-top, margin-bottom
+
+
+100vw is exceeding viewport
+
+
