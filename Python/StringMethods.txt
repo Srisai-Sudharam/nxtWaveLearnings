@@ -1,0 +1,37 @@
+Slicing:
+var[start_index:end_index:step]
+
+Methods:
+
+isdigit()
+strip()
+lower()
+upper()
+startswith()
+endswith()
+replace(oldstr, newstr)
+isalpha()
+isdecimal()
+islower()
+isupper()
+isalnum()
+
+Case conversion:
+capitalize() #only converts first letter in string to uppercase
+title() # converts first letter of every word to uppercase
+swapcase()
+
+Counting and searching:
+count(str)
+# below methods finds between start_index and end_index, also start and end indexes are optional are optional
+index(substr, start_index, end_index) # returns index of first occurence, value error if not found
+rindex() # returns index of last occurence and value error if not found
+find() # return -1 if not found else index of first occurence
+rfind() # index of last occurence
+
+
+
+> strip(chars) - specific chars that need to be stripped from start and end
+"h e llo  ".strip(" lo") # "h e"
+
+
