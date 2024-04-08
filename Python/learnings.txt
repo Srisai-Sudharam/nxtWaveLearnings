@@ -1,0 +1,5 @@
+for i in range(0, 0):
+  # does not enter the loop
+
+for i in range(2, 1):
+  # does not enter the loop 
