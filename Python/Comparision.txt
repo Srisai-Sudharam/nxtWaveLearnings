@@ -1,0 +1,67 @@
+computer internally stores character in unicodes
+python compares string using their unicode value
+
+"Apple" < "apple" # True
+
+-> ord(char)=> takes character as input and returns unicode of that string
+
+-> chr(unicode_value) => takes unicode value and returns a string
+
+48 - 57 (0-9)
+65 - 90 (A-Z)
+97 - 122(a - z)
+
+ord method only takes a single character, if more than one character is given it raises a TypeError
+
+Naming variables:
+
+the name can contain alphabets and digits and underscores
+
+the name should not start with a digit, and should not contain any special characters
+
+snake_case # naming convention used in python
+
+some other naming styles are
+
+1. PascalCase
+2. camelCase
+
+
+### Floating values
+
+Floating values are stored approximately in the computer,
+    0.1 + 0.2 == 0.3 # this would return False
+    print(0.1 + 0.2) # 0.30000000004
+
+    to avoid this use round method to round the decimals and then compare
+
+round(decimal, no_of_digits) # rounds the number to no of digits mentioned
+
+0.3 == round((0.1 + 0.2), 1) # True
+
+round(12.34, 5) # no_of_digits greater than the decimal
+> 12.34
+
+round(12.91, 0) # no_of_digits = 0
+>13.0
+
+round(13.1, 0) 
+>13.0
+
+round(13.4, 1)
+>13.4 # already there is only one digit
+
+round(13.4) #no_of_digits not mentioned 
+>13   #integer
+
+round(35, 2) #rounding an integer
+>35 #integer
+
+
+####
+
+"*" * round(9.2, 0)
+
+TypeError "Cannot multiply a sequence by a non-int
+
+###

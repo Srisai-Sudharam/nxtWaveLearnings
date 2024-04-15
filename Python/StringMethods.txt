@@ -3,7 +3,7 @@ var[start_index:end_index:step]
 
 Methods:
 
-isdigit()
+isdigit() # checks if given string is a integer
 strip()
 lower()
 upper()
